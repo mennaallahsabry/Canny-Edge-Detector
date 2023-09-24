@@ -1,0 +1,6 @@
+The Canny Edge Detector Algorithm
+1: Smooth the input image using a Gaussian filter.
+2: Compute the gradient magnitude and orientation.
+3: Apply non-maximum suppression to thin multi-pixel edges.
+4: Apply double thresholding to determine potential edges.
+5: Connect edges by hysteresis
